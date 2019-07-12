@@ -1,0 +1,4 @@
+<launch>
+	<include file = "$(find jet_bringup)/launch/jet_real.launch"/>
+	<node name = "motor_control" pkg = "motor_control" type = "motor_control" output = "screen"/>
+</launch>

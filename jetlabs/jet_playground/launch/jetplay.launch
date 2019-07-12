@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find jet_bringup)/launch/jet_real.launch"/>
+  <node name="playground" pkg="jet_playground" type="playground"/>
+</launch>
